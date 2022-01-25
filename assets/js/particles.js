@@ -1,7 +1,10 @@
-var canvas = document.getElementById("canvas"); // this only finds the first element
-// var canvas_list = document.getElementsByTagName("canvas"); // this finds all elements, use for let to iterate
-// console.log(canvas);
+// var canvas = document.getElementById("canvas"); // this only finds the first element
+// var canvasList = document.getElementsByTagName("canvas"); // this finds all elements, use for let to iterate
+// console.log(canvasList);
+var input = document.getElementsByTagName("canvas");
+var inputList = Array.prototype.slice.call(input);
 
+inputList.forEach(canvas => {
 var ctx = canvas.getContext("2d");
 var particlesOnScreen = 300;
 var particlesArray = [];
@@ -82,3 +85,6 @@ function updateSnowFall  () {
 
 setInterval(updateSnowFall,15);
 createSnowFlakes();
+});
+
+

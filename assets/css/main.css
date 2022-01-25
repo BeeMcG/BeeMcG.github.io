@@ -2554,7 +2554,7 @@ body.is-touch .main {
 }
 
 #march {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2562,7 +2562,7 @@ body.is-touch .main {
 }
 
 #april {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2570,7 +2570,7 @@ body.is-touch .main {
 }
 
 #may {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2578,7 +2578,7 @@ body.is-touch .main {
 }
 
 #june {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2586,7 +2586,7 @@ body.is-touch .main {
 }
 
 #july {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2594,7 +2594,7 @@ body.is-touch .main {
 }
 
 #august {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2602,7 +2602,7 @@ body.is-touch .main {
 }
 
 #september {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2610,7 +2610,7 @@ body.is-touch .main {
 }
 
 #october {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2618,7 +2618,7 @@ body.is-touch .main {
 }
 
 #november {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2626,7 +2626,7 @@ body.is-touch .main {
 }
 
 #december {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2634,7 +2634,7 @@ body.is-touch .main {
 }
 
 #january {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2642,7 +2642,7 @@ body.is-touch .main {
 }
 
 #outro {
-  background: url("images/overlay.png"), url("../../images/hearts.gif");
+  background: url("images/overlay.png"), url("../../images/heartsbg.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2651,7 +2651,7 @@ body.is-touch .main {
 
 /* Canvas for particles */
 canvas {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
 }
